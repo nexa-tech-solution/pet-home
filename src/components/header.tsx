@@ -1,4 +1,4 @@
-import { ChevronLeft, Gift, Home, Info, Phone } from 'lucide-react-native';
+import { Phone } from 'lucide-react-native';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const Header = () => {
