@@ -16,8 +16,11 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <WebView
-        source={{ uri: 'https://pet-simulator-sigma.vercel.app/' }}
-        //style={styles.container}
+        source={{ uri: 'https://pet-simulator-sigma.vercel.app' }}
+        style={styles.container}
+        originWhitelist={['*']}
+        javaScriptEnabled
+        domStorageEnabled
       />
       <BannerAd
         unitId={adUnitId}
