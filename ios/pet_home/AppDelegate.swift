@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
 
     factory.startReactNative(
-      withModuleName: "pet_home",
+      withModuleName: "pet_simulator",
       in: window,
       launchOptions: launchOptions
     )

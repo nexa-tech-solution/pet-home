@@ -1,4 +1,4 @@
-package com.pet_home
+package com.pet_simulator
 
 import android.app.Application
 import com.facebook.react.PackageList
