@@ -10,7 +10,7 @@ import {
 
 const adUnitId = __DEV__
   ? TestIds.ADAPTIVE_BANNER
-  : 'ca-app-pub-9163464406132797/1322315715';
+  : 'ca-app-pub-3012411444875177/4594575809';
 
 const HomeScreen = () => {
   return (
@@ -19,8 +19,8 @@ const HomeScreen = () => {
         source={{ uri: 'https://pet-simulator-sigma.vercel.app' }}
         style={styles.container}
         originWhitelist={['*']}
-        javaScriptEnabled
-        domStorageEnabled
+        // javaScriptEnabled
+        // domStorageEnabled
       />
       <BannerAd
         unitId={adUnitId}
